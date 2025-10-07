@@ -818,7 +818,7 @@ section,
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../img/events/showcase-1.webp");
+  background-image: url("/images/lgbtq-5.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -1261,6 +1261,7 @@ section,
   color: #fff;
   margin-bottom: 1.5rem;
   line-height: 1.6;
+  text-align: justify;
 }
 
 .intro .content p {
@@ -1641,7 +1642,7 @@ section,
 }
 
 .featured-speakers .speaker-card.featured .speaker-content .speaker-name {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   color: var(--heading-color);
   margin-bottom: 8px;
@@ -1649,7 +1650,7 @@ section,
 }
 
 .featured-speakers .speaker-card.featured .speaker-content .speaker-title {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   color: var(--accent-color);
   margin-bottom: 5px;
