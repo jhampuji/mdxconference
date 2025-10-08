@@ -1203,6 +1203,44 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Registration Intro Section
+--------------------------------------------------------------*/
+
+.introReg {
+  position: relative; /* needed for overlay positioning */
+  width: 100%;
+  
+}
+
+.introReg .image-wrapper {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px color-mix(in srgb, var(--default-color), transparent 85%);
+  transform: perspective(1000px) rotateY(-5deg) rotateX(2deg);
+  transition: all 0.3s ease;
+}
+
+.introReg .image-wrapper:hover {
+  transform: perspective(1000px) rotateY(0deg) rotateX(0deg);
+}
+
+.introReg .image-wrapper img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.introReg .image-wrapper .gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--accent-color), transparent 60%) 0%, transparent 100%);
+}
+
+/*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
 .intross {
