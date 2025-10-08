@@ -834,7 +834,7 @@ section,
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("/assets/img/caec/lgbtq-5.jpg");
+  background-image: url("../img/caec/lgbtq-5.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
