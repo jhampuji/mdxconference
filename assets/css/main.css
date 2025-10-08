@@ -506,6 +506,22 @@ h1 {
   letter-spacing: 1px;
 }
 
+.custom-footer-text {
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* .footer footer.end > span {
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 1px;  
+} */
+
 .footer .footer-about p {
   font-size: 14px;
   font-family: var(--heading-font);
