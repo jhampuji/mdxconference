@@ -8,8 +8,9 @@ class="container-fluid container-xl position-relative d-flex align-items-center 
 >
 <a href="index.html" class="logo d-flex align-items-center">
   <!-- Uncomment the line below if you also wish to use an image logo -->
-  <!-- <img src="assets/img/logo.webp" alt=""> -->
-  <h1 class="sitename">LGBTQIA+ Perspectives</h1>
+<img src="assets/img/android-chrome-512x512.png" alt="">
+
+  <!-- <h1 class="sitename">LGBTQIA+ Perspectives</h1> -->
 </a>
 
 <nav id="navmenu" class="navmenu">
