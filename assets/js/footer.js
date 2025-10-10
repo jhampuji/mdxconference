@@ -32,6 +32,35 @@ footer.innerHTML = `  <div class="container">
     </div>
   </div>
 
+  
+  <!-- Center -->
+  <div
+    class="col-lg-4 col-12 mb-4 footer-about text-center text-lg-center"
+  >
+  <a
+  href="https://middlesex.mu"
+  class="logo d-flex align-items-center justify-content-center justify-content-lg-end mb-2"
+>
+    <span class="sitename">Middlesex University Mauritius</span>
+  </a>
+    <div class="footer-contact pt-2">
+    <p>Coastal Road</p>
+    <p>90203, Uniciti, Flic-en-Flac,</p>
+    <p>Mauritius</p>
+    <p class="mt-2">
+      <strong>Phone:</strong> <span>+230 403 6400</span>
+    </p>
+    </div>
+    <div
+      class="social-links d-flex justify-content-center justify-content-lg-center mt-3"
+    >
+      <a href="https://twitter.com/mdx_mtius" target="_blank" rel="noopener noreferrer" ><i class="bi bi-twitter-x"></i></a>
+      <a href="https://www.facebook.com/MiddlesexUniversityMauritius/" target="_blank" rel="noopener noreferrer" ><i class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/middlesexunimauritius/" target="_blank" rel="noopener noreferrer" ><i class="bi bi-instagram"></i></a>
+    </div>
+  </div>
+  
+
   <!-- Right -->
   <div
     class="col-lg-4 col-12 mb-4 footer-about text-center text-lg-end"
@@ -79,7 +108,8 @@ document.body.appendChild(footer);
 var scrollTop = document.createElement("a");
 scrollTop.href = "#";
 scrollTop.id = "scroll-top";
-scrollTop.className = "scroll-top d-flex align-items-center justify-content-center";
+scrollTop.className =
+  "scroll-top d-flex align-items-center justify-content-center";
 scrollTop.innerHTML = `<i class="bi bi-arrow-up-short"></i>`;
 
 var preloader = document.createElement("div");
