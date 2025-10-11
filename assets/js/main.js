@@ -1,11 +1,3 @@
-/**
-* Template Name: Evently
-* Template URL: https://bootstrapmade.com/evently-bootstrap-events-template/
-* Updated: Jul 19 2025 with Bootstrap v5.3.7
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 (function() {
   "use strict";
 

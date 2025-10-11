@@ -1,17 +1,6 @@
-/**
-* Template Name: Evently
-* Template URL: https://bootstrapmade.com/evently-bootstrap-events-template/
-* Updated: Jul 19 2025 with Bootstrap v5.3.7
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 @charset "UTF-8";
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
+
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -172,7 +161,7 @@ h1 {
 }
 
 .header .logo img {
-  max-height: 150px;
+  max-height: 100px;
   margin-right: 8px;
 }
 
